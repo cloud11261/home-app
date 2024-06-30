@@ -1,0 +1,14 @@
+
+:host {
+  --content-padding: 10px;
+}
+header {
+  background-color: white;
+  display: block;
+  height: 60px;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 10px 5px var(--primary-color);
+}
+.content {
+  padding: var(--content-padding);
+}
